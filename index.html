@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Map
+  </title>
+  <link rel="shortcut icon" href="MFTriangles.ico">
+  <script language="javascript" type="text/javascript" src="src/gl-matrix.min.js"></script>
+  <script language="javascript" type="text/javascript" src="src/three.min.js"></script>
+  <script language="javascript" type="text/javascript" src="src/camera-helper.js"></script>
+  <script language="javascript" type="text/javascript" src="src/render-helper.js"></script>
+  <script language="javascript" type="text/javascript" src="src/maze-creator.js"></script>
+  <script language="javascript" type="text/javascript" src="src/main.js"></script>
+  <script language="javascript" type="text/javascript">
+   //<!--
+
+    function startProgram() {
+      // console.log(MazeCreator.mazeToString(MazeCreator.wilsonMaze()));
+      initScene();
+    }
+
+   //-->
+  </script>
+  <style type="text/css">
+
+    body {
+      background-color:rgba(0, 153, 255, 1);
+    }
+
+  </style>
+ </head>
+ <body onLoad="startProgram();">
+
+ </body>
+</html>
